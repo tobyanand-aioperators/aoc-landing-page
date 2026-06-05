@@ -4,6 +4,13 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
 }
 
 @layer components {
@@ -22,11 +29,6 @@ html {
   .gradient-text {
     @apply bg-clip-text text-transparent bg-gradient-to-r from-white to-purple-500;
   }
-}
-
-/* Smooth scroll behavior */
-body {
-  overflow-x: hidden;
 }
 
 /* Custom scrollbar */

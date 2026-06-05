@@ -169,9 +169,9 @@ export default function Home() {
   ]
 
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="min-h-screen bg-black text-white w-full overflow-x-hidden">
       {/* Navigation */}
-      <nav className="sticky top-0 z-50 bg-transparent">
+      <nav className="sticky top-0 z-50 bg-transparent w-full">
         <div className="container-wrapper relative z-10">
           <div className="flex items-center justify-between h-16">
             <div className="text-lg font-semibold text-white">
@@ -185,7 +185,7 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="py-8 md:py-12 lg:py-16">
+      <section className="py-12 md:py-16 lg:py-24 px-4 sm:px-6 md:px-0">
         <div className="container-wrapper relative z-10">
           <motion.div
             variants={staggerContainer}
@@ -196,7 +196,7 @@ export default function Home() {
             {/* Headline */}
             <motion.h1
               variants={fadeInUp}
-              className="text-3xl md:text-5xl lg:text-6xl font-black tracking-tight leading-tight mb-4 md:mb-6 text-white"
+              className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-black tracking-tight leading-tight mb-4 md:mb-6 text-white"
             >
               The Cold Email Method That Books 30–60 Meetings a Month Without Pitching, Ads, or LinkedIn DMs
             </motion.h1>
@@ -243,7 +243,7 @@ export default function Home() {
       </section>
 
       {/* Campaign Results Grid */}
-      <section className="py-12 md:py-16 lg:py-24 bg-gradient-to-b from-black via-purple-950/10 to-black relative">
+      <section className="py-12 md:py-16 lg:py-24 px-4 sm:px-6 md:px-0 bg-gradient-to-b from-black via-purple-950/10 to-black relative">
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute top-20 left-1/4 w-96 h-96 bg-purple-500/5 rounded-full blur-3xl" />
           <div className="absolute bottom-20 right-1/4 w-96 h-96 bg-purple-500/5 rounded-full blur-3xl" />
@@ -341,7 +341,7 @@ export default function Home() {
       )}
 
       {/* Social Proof Masonry Section */}
-      <section className="py-12 md:py-16 lg:py-24 bg-gradient-to-b from-black to-purple-950/15 relative">
+      <section className="py-12 md:py-16 lg:py-24 px-4 sm:px-6 md:px-0 bg-gradient-to-b from-black to-purple-950/15 relative">
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute top-10 right-1/4 w-96 h-96 bg-purple-600/5 rounded-full blur-3xl" />
           <div className="absolute bottom-10 left-1/3 w-96 h-96 bg-purple-600/5 rounded-full blur-3xl" />
@@ -439,7 +439,7 @@ export default function Home() {
       )}
 
       {/* The Problem */}
-      <section className="py-12 md:py-16 lg:py-24 bg-gradient-to-b from-black via-purple-950/10 to-black relative">
+      <section className="py-12 md:py-16 lg:py-24 px-4 sm:px-6 md:px-0 bg-gradient-to-b from-black via-purple-950/10 to-black relative">
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute bottom-20 left-1/4 w-96 h-96 bg-purple-500/5 rounded-full blur-3xl" />
         </div>
@@ -478,7 +478,7 @@ export default function Home() {
       </section>
 
       {/* The Interview Method */}
-      <section className="py-24 bg-black">
+      <section className="py-12 md:py-16 lg:py-24 px-4 sm:px-6 md:px-0 bg-black">
         <div className="container-wrapper relative z-10">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -534,7 +534,7 @@ export default function Home() {
       </section>
 
       {/* What You Get */}
-      <section className="py-24 bg-black">
+      <section className="py-12 md:py-16 lg:py-24 px-4 sm:px-6 md:px-0 bg-black">
         <div className="container-wrapper relative z-10">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -570,7 +570,7 @@ export default function Home() {
       </section>
 
       {/* FAQ */}
-      <section className="py-24 bg-black">
+      <section className="py-12 md:py-16 lg:py-24 px-4 sm:px-6 md:px-0 bg-black">
         <div className="container-wrapper max-w-3xl">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -628,7 +628,7 @@ export default function Home() {
       </section>
 
       {/* Final CTA */}
-      <section className="py-24 bg-black">
+      <section className="py-12 md:py-16 lg:py-24 px-4 sm:px-6 md:px-0 bg-black">
         <div className="container-wrapper relative z-10">
           <motion.div
             variants={staggerContainer}
