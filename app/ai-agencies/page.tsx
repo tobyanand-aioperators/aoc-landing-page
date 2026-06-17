@@ -77,61 +77,61 @@ export default function AIAgenciesPage() {
 
   const faqItems = [
     {
-      q: 'Is this just another agency course?',
-      a: 'No. This is a focused system for scaling AI agencies from $0-100K/month. No fluff, no modules, just the framework that works.',
+      q: 'I\'m only at $3-5K/month. Can I really hit $20K?',
+      a: 'Yes. The jump from $5K to $20K is usually not about working harder — it\'s about packaging, pricing, and positioning. This framework shows you exactly how.',
     },
     {
-      q: 'I\'m still in my first client. Can I use this?',
-      a: 'Yes — understanding the scaling framework early saves you from building things wrong that you\'ll have to rebuild later.',
+      q: 'Do I need to specialize in a specific AI niche?',
+      a: 'It helps, but this works whether you\'re doing AI copywriting, automation, customer support, lead gen, or custom solutions. The business model is the same.',
     },
     {
-      q: 'What if I already have clients?',
-      a: 'Perfect. This shows you how to systematize what you\'re already doing so you can take on more without working more hours.',
+      q: 'What if I\'m not good at sales?',
+      a: 'This isn\'t about becoming a salesman. It\'s about positioning yourself as the expert so clients seek you out. That\'s different.',
     },
     {
-      q: 'Do I need to have a specific niche?',
-      a: 'It helps, but this framework works across all AI service niches — AI writing, content automation, customer support, lead gen, etc.',
+      q: 'Won\'t scaling to $20K mean taking on more clients?',
+      a: 'Not necessarily. It\'s about raising your prices and project sizes, not doing more volume. Fewer, bigger, more profitable projects.',
     },
     {
-      q: 'How is this different from other scaling advice?',
-      a: 'Most advice is generic. This is built specifically for service agencies — your pricing, packaging, team structure, and sales process.',
+      q: 'How long does it take to go from $5K to $20K?',
+      a: 'Depends on your current positioning, but most consultants who implement this see movement within 60-90 days. Some faster, some slower.',
     },
     {
-      q: 'Is it really free?',
-      a: 'Yes. We give you the guide. If you want hands-on help scaling your agency, we offer that separately.',
+      q: 'Is this a blueprint or done-for-you?',
+      a: 'This is a call to map out your specific situation and show you exactly what your path to $20K looks like.',
     },
   ]
 
   const painPoints = [
     {
-      title: 'You\'re trading time for money — working 50+ hours a week just to hit $5K/month.',
+      title: 'You\'re doing $5-10K/month but stuck because you can\'t scale without working 60+ hour weeks.',
       desc: '',
     },
     {
-      title: 'Every new client means more work, more stress, more systems to manage.',
+      title: 'Every client project drains you because you haven\'t systematized your delivery.',
       desc: '',
     },
     {
-      title: 'You\'re selling on price because you haven\'t figured out how to position your value.',
+      title: 'You\'re competing on price with other consultants instead of commanding premium fees.',
       desc: '',
     },
     {
-      title: 'You have no system for lead generation — each client was a one-off win.',
+      title: 'Lead generation feels random — you\'re relying on referrals instead of a repeatable system.',
       desc: '',
     },
     {
-      title: 'You can\'t hire because you don\'t have documented processes for anyone to follow.',
+      title: 'You\'re scared to take on bigger projects because you don\'t know if you can deliver profitably.',
       desc: '',
     },
   ]
 
   const modules = [
-    'The pricing model that lets you scale from $1K to $5K+ monthly contracts without burning out',
-    'How to productize your service so you spend less time customizing and more time delivering',
-    'The lead generation system that fills your pipeline without relying on network connections',
-    'How to hire your first contractor or employee without losing quality or control',
-    'The sales framework that closes high-ticket clients without being salesy',
-    'Real examples from agencies scaling from zero to six figures',
+    'The pricing and project structure that lets you hit $20K/month as a solo consultant',
+    'How to package your AI consulting service so every project is profitable and repeatable',
+    'The lead generation system that fills your pipeline with qualified, high-intent clients',
+    'How to position yourself as the expert so clients come to you, not vice versa',
+    'The delivery framework that lets you take on bigger projects without longer hours',
+    'Real examples from AI consultants scaling to $20K+ per month solo',
   ]
 
   const campaignScreenshots = [
@@ -174,10 +174,10 @@ export default function AIAgenciesPage() {
         <div className="container-wrapper relative z-10">
           <div className="flex items-center justify-between h-16">
             <div className="text-lg font-semibold text-white">
-              AI Agency Scaling
+              AI Consultant's Playbook
             </div>
-            <a href="https://api.leadconnectorhq.com/widget/bookings/ai-agency-scaling" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white px-3 md:px-6 py-2 md:py-2.5 rounded-full font-bold text-xs md:text-sm transition-all duration-300 shadow-lg shadow-purple-500/20 hover:shadow-xl hover:shadow-purple-500/40 whitespace-nowrap">
-              Book Free Strategy Call
+            <a href="https://api.leadconnectorhq.com/widget/bookings/ai-operators-consult" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white px-3 md:px-6 py-2 md:py-2.5 rounded-full font-bold text-xs md:text-sm transition-all duration-300 shadow-lg shadow-purple-500/20 hover:shadow-xl hover:shadow-purple-500/40 whitespace-nowrap">
+              Book a Call
             </a>
           </div>
         </div>
@@ -197,13 +197,13 @@ export default function AIAgenciesPage() {
               variants={fadeInUp}
               className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-black tracking-tight leading-tight mb-4 md:mb-6 text-white"
             >
-              Scale Your AI Agency from Zero to Six Figures Without Burning Out
+              Build a $20K/Month AI Consulting Business Without a Team
             </motion.h1>
 
             {/* Subheadline */}
             <motion.div variants={fadeInUp} className="mb-6 md:mb-8">
               <p className="text-base md:text-lg lg:text-xl text-gray-400 mb-2 md:mb-3">
-                The system to go from solopreneur chaos to $100K/month agency with systems, processes, and a team.
+                Scale to 20k a month with a lean AI consulting business.
               </p>
               <p className="text-sm md:text-base text-gray-400 font-normal">
               </p>
@@ -229,12 +229,14 @@ export default function AIAgenciesPage() {
 
             {/* CTA Button */}
             <motion.div variants={fadeInUp} className="flex flex-col items-center gap-2">
-              <button
-                onClick={() => setModalOpen(true)}
-                className="bg-purple-500 hover:bg-purple-600 text-white px-6 md:px-10 py-3 md:py-4 rounded-full font-bold text-xs md:text-sm tracking-widest uppercase transition-all duration-300 shadow-lg shadow-purple-500/30 hover:shadow-xl hover:shadow-purple-500/50 hover:-translate-y-0.5"
+              <a
+                href="https://api.leadconnectorhq.com/widget/bookings/ai-operators-consult"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-purple-500 hover:bg-purple-600 text-white px-6 md:px-10 py-3 md:py-4 rounded-full font-bold text-xs md:text-sm tracking-widest uppercase transition-all duration-300 shadow-lg shadow-purple-500/30 hover:shadow-xl hover:shadow-purple-500/50 hover:-translate-y-0.5 inline-block"
               >
-                Get Free Scaling Guide
-              </button>
+                Book a Call
+              </a>
               <p className="text-gray-500 text-xs">⏱ Takes 30 sec</p>
             </motion.div>
           </motion.div>
@@ -255,7 +257,7 @@ export default function AIAgenciesPage() {
             transition={{ duration: 0.6 }}
             className="text-3xl md:text-4xl lg:text-5xl font-black text-center mb-8 md:mb-12 lg:mb-16 bg-gradient-to-r from-white via-purple-200 to-white bg-clip-text text-transparent"
           >
-            Real Agency Revenue. Real Growth.
+            What Consultants Are Building Now
           </motion.h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-6xl mx-auto">
@@ -450,7 +452,7 @@ export default function AIAgenciesPage() {
             transition={{ duration: 0.6 }}
             className="text-3xl md:text-4xl lg:text-5xl font-black text-center mb-8 md:mb-12 lg:mb-16 text-white"
           >
-            Why Most AI Agencies Fail to Scale
+            Why Most AI Consultants Stay Stuck at $10K/Month
           </motion.h2>
 
           <motion.div
@@ -486,7 +488,7 @@ export default function AIAgenciesPage() {
             transition={{ duration: 0.6 }}
             className="text-4xl md:text-5xl font-black text-center mb-16 text-white"
           >
-            The Scaling System That Changes Everything
+            The AI Consulting Blueprint
           </motion.h2>
 
           <motion.div
@@ -498,16 +500,16 @@ export default function AIAgenciesPage() {
           >
             {[
               {
-                title: 'Build pricing that supports growth',
-                desc: 'Move from hourly to value-based pricing so your profit margin grows as you scale, not stays flat.',
+                title: 'Price for profitability, not desperation',
+                desc: 'Stop racing to the bottom. Charge based on value delivered, not hours worked. This alone can 4x your income.',
               },
               {
-                title: 'Productize your service',
-                desc: 'Create repeatable packages so you\'re not rebuilding your solution for every client. This is what lets you hire.',
+                title: 'Package your service so it scales',
+                desc: 'Create repeatable offerings so you\'re not starting from scratch with every client. Same service, higher prices.',
               },
               {
-                title: 'Generate leads systematically',
-                desc: 'Build a lead generation engine (not a network) so you\'re never scrambling for the next client.',
+                title: 'Build a lead system, not a referral habit',
+                desc: 'Replace luck with a system. One or two reliable lead sources beats hoping your network remembers you.',
               },
             ].map((step, i) => (
               <motion.div
@@ -542,7 +544,7 @@ export default function AIAgenciesPage() {
             transition={{ duration: 0.6 }}
             className="text-4xl md:text-5xl font-black text-center mb-16 text-white"
           >
-            Inside The Free Scaling Guide
+            What We'll Map Out On Your Call
           </motion.h2>
 
           <motion.div
@@ -640,33 +642,35 @@ export default function AIAgenciesPage() {
               variants={fadeInUp}
               className="text-5xl md:text-6xl font-black mb-6 text-white"
             >
-              Most AI Agencies Stay Solo. Build a Scalable Business.
+              Most AI Consultants Stop at $10K. You Don't Have To.
             </motion.h2>
 
             <motion.p
               variants={fadeInUp}
               className="text-sm md:text-base text-gray-400 mb-6 md:mb-8"
             >
-              Get the free scaling guide and see the exact framework to grow from solopreneur to a real agency — with systems, team, and recurring revenue.
+              Book a call and we'll map out exactly what your path to $20K/month looks like — no generic advice, specific to your situation.
             </motion.p>
 
             <motion.div
               variants={fadeInUp}
               className="flex flex-col justify-center"
             >
-              <button
-                onClick={() => setModalOpen(true)}
-                className="bg-purple-500 hover:bg-purple-600 text-white px-6 md:px-10 py-3 md:py-4 rounded-full font-bold text-xs md:text-sm tracking-widest uppercase transition-all duration-300 shadow-lg shadow-purple-500/30 hover:shadow-xl hover:shadow-purple-500/50 hover:-translate-y-0.5 w-fit mx-auto"
+              <a
+                href="https://api.leadconnectorhq.com/widget/bookings/ai-operators-consult"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-purple-500 hover:bg-purple-600 text-white px-6 md:px-10 py-3 md:py-4 rounded-full font-bold text-xs md:text-sm tracking-widest uppercase transition-all duration-300 shadow-lg shadow-purple-500/30 hover:shadow-xl hover:shadow-purple-500/50 hover:-translate-y-0.5 w-fit mx-auto inline-block"
               >
-                GET THE SCALING GUIDE
-              </button>
+                BOOK A CALL
+              </a>
             </motion.div>
 
             <motion.p
               variants={fadeInUp}
               className="text-gray-500 text-xs mt-3 md:mt-4"
             >
-              ⏱ Free. Instant access. No credit card.
+              ⏱ 30 minutes. No sales pitch. Just strategy.
             </motion.p>
           </motion.div>
         </div>
@@ -676,7 +680,7 @@ export default function AIAgenciesPage() {
       <footer className="py-8 md:py-12 border-t border-purple-500/20 bg-gradient-to-b from-black to-purple-950/20">
         <div className="container-wrapper">
           <div className="flex flex-col md:flex-row justify-between items-center text-gray-500 text-xs">
-            <p>&copy; 2026 AI Agency Scaling. All rights reserved.</p>
+            <p>&copy; 2026 AI Operators Collective. All rights reserved.</p>
             <div className="flex gap-6 mt-4 md:mt-0">
               <a href="#" className="hover:text-gray-300 transition">Twitter</a>
               <a href="#" className="hover:text-gray-300 transition">LinkedIn</a>
