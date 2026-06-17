@@ -228,16 +228,22 @@ export default function AIAgenciesPage() {
             </motion.div>
 
             {/* CTA Button */}
-            <motion.div variants={fadeInUp} className="flex flex-col items-center gap-2">
+            <motion.div variants={fadeInUp} className="flex flex-col items-center gap-3">
               <a
                 href="https://api.leadconnectorhq.com/widget/bookings/ai-operators-consult"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-purple-500 hover:bg-purple-600 text-white px-6 md:px-10 py-3 md:py-4 rounded-full font-bold text-xs md:text-sm tracking-widest uppercase transition-all duration-300 shadow-lg shadow-purple-500/30 hover:shadow-xl hover:shadow-purple-500/50 hover:-translate-y-0.5 inline-block"
+                className="bg-purple-500 hover:bg-purple-600 text-white px-6 md:px-10 py-3 md:py-4 rounded-full font-bold text-xs md:text-sm tracking-widest uppercase transition-all duration-300 shadow-lg shadow-purple-500/30 hover:shadow-xl hover:shadow-purple-500/50 hover:-translate-y-0.5"
               >
                 Book a Call
               </a>
-              <p className="text-gray-500 text-xs">⏱ Takes 30 sec</p>
+              <a
+                href="/why_cold_email_fails_AOC.pdf"
+                download
+                className="text-purple-400 hover:text-purple-300 text-xs font-semibold transition-colors"
+              >
+                ↓ Or download the playbook
+              </a>
             </motion.div>
           </motion.div>
         </div>
@@ -654,15 +660,22 @@ export default function AIAgenciesPage() {
 
             <motion.div
               variants={fadeInUp}
-              className="flex flex-col justify-center"
+              className="flex flex-col items-center gap-3"
             >
               <a
                 href="https://api.leadconnectorhq.com/widget/bookings/ai-operators-consult"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-purple-500 hover:bg-purple-600 text-white px-6 md:px-10 py-3 md:py-4 rounded-full font-bold text-xs md:text-sm tracking-widest uppercase transition-all duration-300 shadow-lg shadow-purple-500/30 hover:shadow-xl hover:shadow-purple-500/50 hover:-translate-y-0.5 w-fit mx-auto inline-block"
+                className="bg-purple-500 hover:bg-purple-600 text-white px-6 md:px-10 py-3 md:py-4 rounded-full font-bold text-xs md:text-sm tracking-widest uppercase transition-all duration-300 shadow-lg shadow-purple-500/30 hover:shadow-xl hover:shadow-purple-500/50 hover:-translate-y-0.5"
               >
                 BOOK A CALL
+              </a>
+              <a
+                href="/why_cold_email_fails_AOC.pdf"
+                download
+                className="text-purple-400 hover:text-purple-300 text-xs font-semibold transition-colors"
+              >
+                ↓ Or download the playbook
               </a>
             </motion.div>
 
