@@ -20,7 +20,7 @@ const staggerContainer = {
 }
 
 
-export default function Home() {
+export default function AIAgenciesPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
   const [lightboxOpen, setLightboxOpen] = useState(false)
   const [lightboxIndex, setLightboxIndex] = useState(0)
@@ -42,7 +42,7 @@ export default function Home() {
             {
               name: name,
               email: email,
-              source: 'cold-email-playbook'
+              source: 'ai-agency-scaling'
             }
           ])
 
@@ -53,8 +53,8 @@ export default function Home() {
 
         // Trigger PDF download
         const link = document.createElement('a')
-        link.href = '/why_cold_email_fails_AOC.pdf'
-        link.download = 'Why-Cold-Email-Fails-AOC.pdf'
+        link.href = '/scaling-guide.pdf'
+        link.download = 'AI-Agency-Scaling-Guide.pdf'
         document.body.appendChild(link)
         link.click()
         document.body.removeChild(link)
@@ -77,62 +77,61 @@ export default function Home() {
 
   const faqItems = [
     {
-      q: 'Is this just another cold email course?',
-      a: 'No. It\'s a single playbook covering one method. No fluff, no modules, no upsell waiting at the end.',
+      q: 'Is this just another agency course?',
+      a: 'No. This is a focused system for scaling AI agencies from $0-100K/month. No fluff, no modules, just the framework that works.',
     },
     {
-      q: 'Does this work if I\'ve never done cold email before?',
-      a: 'Yes — it\'s actually easier to learn this way than to unlearn bad habits from other approaches.',
+      q: 'I\'m still in my first client. Can I use this?',
+      a: 'Yes — understanding the scaling framework early saves you from building things wrong that you\'ll have to rebuild later.',
     },
     {
-      q: 'What niche does this work in?',
-      a: 'Any B2B niche where you\'re trying to reach decision-makers. It\'s been used in health, recruitment, financial services, and consulting.',
+      q: 'What if I already have clients?',
+      a: 'Perfect. This shows you how to systematize what you\'re already doing so you can take on more without working more hours.',
     },
     {
-      q: 'Do I need any tools or software?',
-      a: 'You need a sending tool (we recommend Instantly) and a lead list. The playbook covers both.',
+      q: 'Do I need to have a specific niche?',
+      a: 'It helps, but this framework works across all AI service niches — AI writing, content automation, customer support, lead gen, etc.',
     },
     {
-      q: 'How is this different from what I find on YouTube?',
-      a: 'The interview framing is the difference. Most cold email advice teaches you to pitch better. This teaches you to stop pitching altogether.',
+      q: 'How is this different from other scaling advice?',
+      a: 'Most advice is generic. This is built specifically for service agencies — your pricing, packaging, team structure, and sales process.',
     },
     {
       q: 'Is it really free?',
-      a: 'Yes. We give you the playbook. If you want help implementing it, that\'s when AOC becomes relevant.',
+      a: 'Yes. We give you the guide. If you want hands-on help scaling your agency, we offer that separately.',
     },
   ]
 
-
   const painPoints = [
     {
-      title: 'Your prospect gets 40+ cold emails a week. Yours looks exactly like the rest.',
+      title: 'You\'re trading time for money — working 50+ hours a week just to hit $5K/month.',
       desc: '',
     },
     {
-      title: 'Personalisation tricks stopped working when everyone started using them.',
+      title: 'Every new client means more work, more stress, more systems to manage.',
       desc: '',
     },
     {
-      title: 'Nobody opens an email that starts with "I help companies like yours…"',
+      title: 'You\'re selling on price because you haven\'t figured out how to position your value.',
       desc: '',
     },
     {
-      title: 'You\'re asking for a meeting before you\'ve earned the right to one.',
+      title: 'You have no system for lead generation — each client was a one-off win.',
       desc: '',
     },
     {
-      title: 'The more you push your offer, the less they want it.',
+      title: 'You can\'t hire because you don\'t have documented processes for anyone to follow.',
       desc: '',
     },
   ]
 
   const modules = [
-    'The exact email sequence used to book interviews with C-suite and senior decision-makers',
-    'Word-for-word subject lines with 40%+ open rates',
-    'How to build a lead list of 500 qualified prospects in under an hour',
-    'The follow-up cadence that gets replies from people who ghosted you',
-    'How to transition from "interview" to "client" without it feeling forced',
-    'Real campaign screenshots and reply examples',
+    'The pricing model that lets you scale from $1K to $5K+ monthly contracts without burning out',
+    'How to productize your service so you spend less time customizing and more time delivering',
+    'The lead generation system that fills your pipeline without relying on network connections',
+    'How to hire your first contractor or employee without losing quality or control',
+    'The sales framework that closes high-ticket clients without being salesy',
+    'Real examples from agencies scaling from zero to six figures',
   ]
 
   const campaignScreenshots = [
@@ -175,10 +174,10 @@ export default function Home() {
         <div className="container-wrapper relative z-10">
           <div className="flex items-center justify-between h-16">
             <div className="text-lg font-semibold text-white">
-              AI Operators Collective
+              AI Agency Scaling
             </div>
-            <a href="https://api.leadconnectorhq.com/widget/bookings/ai-operators-email-masterclass" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white px-3 md:px-6 py-2 md:py-2.5 rounded-full font-bold text-xs md:text-sm transition-all duration-300 shadow-lg shadow-purple-500/20 hover:shadow-xl hover:shadow-purple-500/40 whitespace-nowrap">
-              Book Free Cold Email Consult
+            <a href="https://api.leadconnectorhq.com/widget/bookings/ai-agency-scaling" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white px-3 md:px-6 py-2 md:py-2.5 rounded-full font-bold text-xs md:text-sm transition-all duration-300 shadow-lg shadow-purple-500/20 hover:shadow-xl hover:shadow-purple-500/40 whitespace-nowrap">
+              Book Free Strategy Call
             </a>
           </div>
         </div>
@@ -198,13 +197,13 @@ export default function Home() {
               variants={fadeInUp}
               className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-black tracking-tight leading-tight mb-4 md:mb-6 text-white"
             >
-              The Cold Email Method That Books 30–60 Meetings a Month Without Pitching, Ads, or LinkedIn DMs
+              Scale Your AI Agency from Zero to Six Figures Without Burning Out
             </motion.h1>
 
             {/* Subheadline */}
             <motion.div variants={fadeInUp} className="mb-6 md:mb-8">
               <p className="text-base md:text-lg lg:text-xl text-gray-400 mb-2 md:mb-3">
-                The exact framework used across a 6 million per month AI Consulting Firm. Free playbook. No fluff.
+                The system to go from solopreneur chaos to $100K/month agency with systems, processes, and a team.
               </p>
               <p className="text-sm md:text-base text-gray-400 font-normal">
               </p>
@@ -217,8 +216,8 @@ export default function Home() {
                   <iframe
                     width="100%"
                     height="100%"
-                    src="https://www.youtube.com/embed/AOS8YMTZy4U"
-                    title="AI Operators Collective Introduction"
+                    src="https://www.youtube.com/embed/TSUHSGSrSI8"
+                    title="AI Agency Scaling Introduction"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
@@ -234,7 +233,7 @@ export default function Home() {
                 onClick={() => setModalOpen(true)}
                 className="bg-purple-500 hover:bg-purple-600 text-white px-6 md:px-10 py-3 md:py-4 rounded-full font-bold text-xs md:text-sm tracking-widest uppercase transition-all duration-300 shadow-lg shadow-purple-500/30 hover:shadow-xl hover:shadow-purple-500/50 hover:-translate-y-0.5"
               >
-                Click Get Playbook
+                Get Free Scaling Guide
               </button>
               <p className="text-gray-500 text-xs">⏱ Takes 30 sec</p>
             </motion.div>
@@ -256,7 +255,7 @@ export default function Home() {
             transition={{ duration: 0.6 }}
             className="text-3xl md:text-4xl lg:text-5xl font-black text-center mb-8 md:mb-12 lg:mb-16 bg-gradient-to-r from-white via-purple-200 to-white bg-clip-text text-transparent"
           >
-            Real Campaigns. Real Numbers.
+            Real Agency Revenue. Real Growth.
           </motion.h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-6xl mx-auto">
@@ -276,7 +275,7 @@ export default function Home() {
                 <div className="border border-[#222222] rounded-lg overflow-hidden hover:border-purple-500/50 transition-all duration-300 bg-[#0f0f0f] group-hover:shadow-lg group-hover:shadow-purple-500/20">
                   <img
                     src={screenshot}
-                    alt={`Campaign ${i + 1}`}
+                    alt={`Agency example ${i + 1}`}
                     className="w-full h-[220px] object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
@@ -301,7 +300,7 @@ export default function Home() {
               initial={{ scale: 0.9, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               src={campaignScreenshots[lightboxIndex]}
-              alt={`Campaign ${lightboxIndex + 1}`}
+              alt={`Agency example ${lightboxIndex + 1}`}
               className="max-w-5xl max-h-[90vh] object-contain"
               onClick={(e) => e.stopPropagation()}
             />
@@ -451,7 +450,7 @@ export default function Home() {
             transition={{ duration: 0.6 }}
             className="text-3xl md:text-4xl lg:text-5xl font-black text-center mb-8 md:mb-12 lg:mb-16 text-white"
           >
-            Why Cold Email Stops Working
+            Why Most AI Agencies Fail to Scale
           </motion.h2>
 
           <motion.div
@@ -477,7 +476,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* The Interview Method */}
+      {/* The System */}
       <section className="py-12 md:py-16 lg:py-24 px-4 sm:px-6 md:px-0 bg-black">
         <div className="container-wrapper relative z-10">
           <motion.h2
@@ -487,7 +486,7 @@ export default function Home() {
             transition={{ duration: 0.6 }}
             className="text-4xl md:text-5xl font-black text-center mb-16 text-white"
           >
-            The Interview Method Changes Everything
+            The Scaling System That Changes Everything
           </motion.h2>
 
           <motion.div
@@ -499,16 +498,16 @@ export default function Home() {
           >
             {[
               {
-                title: 'Lead with curiosity, not a pitch',
-                desc: 'You reach out to feature them — not sell to them. That single shift changes how every email lands.',
+                title: 'Build pricing that supports growth',
+                desc: 'Move from hourly to value-based pricing so your profit margin grows as you scale, not stays flat.',
               },
               {
-                title: 'Use a format they actually want to respond to',
-                desc: 'The interview frame gives them a reason to reply that has nothing to do with buying something from you.',
+                title: 'Productize your service',
+                desc: 'Create repeatable packages so you\'re not rebuilding your solution for every client. This is what lets you hire.',
               },
               {
-                title: 'Turn the conversation into a client',
-                desc: 'After the call, you already have trust, context, and a natural opening. Closing becomes a conversation, not a pitch.',
+                title: 'Generate leads systematically',
+                desc: 'Build a lead generation engine (not a network) so you\'re never scrambling for the next client.',
               },
             ].map((step, i) => (
               <motion.div
@@ -543,7 +542,7 @@ export default function Home() {
             transition={{ duration: 0.6 }}
             className="text-4xl md:text-5xl font-black text-center mb-16 text-white"
           >
-            Inside The Free Playbook
+            Inside The Free Scaling Guide
           </motion.h2>
 
           <motion.div
@@ -641,14 +640,14 @@ export default function Home() {
               variants={fadeInUp}
               className="text-5xl md:text-6xl font-black mb-6 text-white"
             >
-              Most Cold Email Gets Deleted in 3 Seconds. This One Gets Replies.
+              Most AI Agencies Stay Solo. Build a Scalable Business.
             </motion.h2>
 
             <motion.p
               variants={fadeInUp}
               className="text-sm md:text-base text-gray-400 mb-6 md:mb-8"
             >
-              Get the free playbook and see exactly how the interview method works — step by step, campaign by campaign.
+              Get the free scaling guide and see the exact framework to grow from solopreneur to a real agency — with systems, team, and recurring revenue.
             </motion.p>
 
             <motion.div
@@ -659,7 +658,7 @@ export default function Home() {
                 onClick={() => setModalOpen(true)}
                 className="bg-purple-500 hover:bg-purple-600 text-white px-6 md:px-10 py-3 md:py-4 rounded-full font-bold text-xs md:text-sm tracking-widest uppercase transition-all duration-300 shadow-lg shadow-purple-500/30 hover:shadow-xl hover:shadow-purple-500/50 hover:-translate-y-0.5 w-fit mx-auto"
               >
-                SEND ME THE PLAYBOOK
+                GET THE SCALING GUIDE
               </button>
             </motion.div>
 
@@ -677,7 +676,7 @@ export default function Home() {
       <footer className="py-8 md:py-12 border-t border-purple-500/20 bg-gradient-to-b from-black to-purple-950/20">
         <div className="container-wrapper">
           <div className="flex flex-col md:flex-row justify-between items-center text-gray-500 text-xs">
-            <p>&copy; 2026 AI Operators Collective. All rights reserved.</p>
+            <p>&copy; 2026 AI Agency Scaling. All rights reserved.</p>
             <div className="flex gap-6 mt-4 md:mt-0">
               <a href="#" className="hover:text-gray-300 transition">Twitter</a>
               <a href="#" className="hover:text-gray-300 transition">LinkedIn</a>
@@ -699,7 +698,7 @@ export default function Home() {
           >
             {/* Decorative gradient background */}
             <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-purple-600/5 to-transparent pointer-events-none" />
-            
+
             {/* Close Button */}
             <button
               onClick={() => setModalOpen(false)}
@@ -714,19 +713,19 @@ export default function Home() {
                   <span className="text-3xl">✓</span>
                 </div>
                 <h3 className="text-2xl font-black text-white mb-3">You're All Set!</h3>
-                <p className="text-gray-400 text-sm mb-2">Your playbook is downloading now.</p>
+                <p className="text-gray-400 text-sm mb-2">Your guide is downloading now.</p>
                 <p className="text-gray-500 text-xs">Check your email for access and future updates.</p>
               </div>
             ) : (
               <div className="relative z-10">
                 <div className="mb-2">
-                  <h2 className="text-2xl font-black bg-gradient-to-r from-white to-purple-300 bg-clip-text text-transparent">Get The Playbook</h2>
+                  <h2 className="text-2xl font-black bg-gradient-to-r from-white to-purple-300 bg-clip-text text-transparent">Get The Scaling Guide</h2>
                 </div>
                 <p className="text-gray-400 text-sm mb-1">
                   Get instant access to the free PDF guide.
                 </p>
                 <p className="text-gray-500 text-xs mb-6">
-                  Download everything you need to book 30–60 meetings using the cold email method.
+                  Download everything you need to scale from solopreneur to a six-figure agency.
                 </p>
 
                 <form onSubmit={handleSubmit} className="space-y-4">
@@ -752,14 +751,14 @@ export default function Home() {
                       required
                     />
                   </div>
-                  
+
                   <button
                     type="submit"
                     className="w-full bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white px-6 py-3 rounded-lg font-bold text-sm transition-all duration-300 mt-6 shadow-lg shadow-purple-500/20 hover:shadow-xl hover:shadow-purple-500/40 hover:-translate-y-0.5"
                   >
                     Send Me The PDF
                   </button>
-                  
+
                   <p className="text-gray-500 text-xs text-center mt-4">
                     No spam. Unsubscribe anytime.
                   </p>
