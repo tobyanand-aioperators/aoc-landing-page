@@ -178,7 +178,7 @@ export default function Home() {
               AI Operators Collective
             </div>
             <a href="https://api.leadconnectorhq.com/widget/bookings/ai-operators-email-masterclass" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white px-3 md:px-6 py-2 md:py-2.5 rounded-full font-bold text-xs md:text-sm transition-all duration-300 shadow-lg shadow-purple-500/20 hover:shadow-xl hover:shadow-purple-500/40 whitespace-nowrap">
-              Book Free Cold Email Consult
+              Free Strategy Call
             </a>
           </div>
         </div>
@@ -198,7 +198,7 @@ export default function Home() {
               variants={fadeInUp}
               className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-black tracking-tight leading-tight mb-4 md:mb-6 text-white"
             >
-              The Cold Email Method That Books 30–60 Meetings a Month Without Pitching, Ads, or LinkedIn DMs
+              How AI Agency Owners Are Booking 30-60 Meetings a Month Without Ads, LinkedIn DMs or Chasing People
             </motion.h1>
 
             {/* Subheadline */}
